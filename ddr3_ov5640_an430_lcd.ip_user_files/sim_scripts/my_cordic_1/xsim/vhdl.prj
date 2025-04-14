@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../adc_ethernet.srcs/sources_1/ip/my_cordic_1/sim/my_cordic_1.vhd" \
+
+nosort

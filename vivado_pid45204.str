@@ -1,0 +1,138 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 45204
+License: Customer
+
+Current time: 	Wed Apr 09 21:20:41 CST 2025
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 20
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 2
+Available disk space: 251 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	E:/xilinx_SDK/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	E:/xilinx_SDK/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Lenovo
+User home directory: C:/Users/Lenovo
+User working directory: F:/AD/experiment/01_demo_document/ad9280_ethernet
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: E:/xilinx_SDK/Vivado
+HDI_APPROOT: E:/xilinx_SDK/Vivado/2019.1
+RDI_DATADIR: E:/xilinx_SDK/Vivado/2019.1/data
+RDI_BINDIR: E:/xilinx_SDK/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/Lenovo/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/Lenovo/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/Lenovo/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	E:/xilinx_SDK/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	F:/AD/experiment/01_demo_document/ad9280_ethernet/vivado.log
+Vivado journal file location: 	F:/AD/experiment/01_demo_document/ad9280_ethernet/vivado.jou
+Engine tmp dir: 	F:/AD/experiment/01_demo_document/ad9280_ethernet/.Xil/Vivado-45204-FranklinY9000P
+
+Xilinx Environment Variables
+----------------------------
+XILINX: E:/xilinx_SDK/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: E:/xilinx_SDK/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: E:/xilinx_SDK/Vivado/2019.1
+XILINX_SDK: E:/xilinx_SDK/SDK/2019.1
+XILINX_VIVADO: E:/xilinx_SDK/Vivado/2019.1
+XILINX_VIVADO_HLS: E:/xilinx_SDK/Vivado/2019.1
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 602 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: F:\AD\experiment\01_demo_document\ad9280_ethernet\adc_ethernet.xpr. Version: Vivado v2019.1 
+// by (cl):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project F:/AD/experiment/01_demo_document/ad9280_ethernet/adc_ethernet.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 643 MB. GUI used memory: 47 MB. Current time: 4/9/25, 9:20:43 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 64 MB (+64510kb) [00:00:20]
+// [Engine Memory]: 678 MB (+559086kb) [00:00:20]
+// [GUI Memory]: 71 MB (+3964kb) [00:00:20]
+// [GUI Memory]: 88 MB (+14076kb) [00:00:21]
+// [Engine Memory]: 739 MB (+29281kb) [00:00:21]
+// [GUI Memory]: 96 MB (+4235kb) [00:00:22]
+// [GUI Memory]: 105 MB (+4360kb) [00:00:22]
+// [GUI Memory]: 113 MB (+2317kb) [00:00:23]
+// WARNING: HEventQueue.dispatchEvent() is taking  4820 ms.
+// [GUI Memory]: 120 MB (+1862kb) [00:00:23]
+// [Engine Memory]: 812 MB (+37758kb) [00:00:23]
+// Tcl Message: open_project F:/AD/experiment/01_demo_document/ad9280_ethernet/adc_ethernet.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'F:/AD/Artix7-7103/01_demo_document/ad9280_ethernet' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/xilinx_SDK/Vivado/2019.1/data/ip'. 
+// WARNING: HEventQueue.dispatchEvent() is taking  2316 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1119 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 856.203 ; gain = 222.418 
+// Project name: adc_ethernet; location: F:/AD/experiment/01_demo_document/ad9280_ethernet; part: xc7a100tfgg484-2
+// [Engine Memory]: 882 MB (+30420kb) [00:00:28]
+dismissDialog("Open Project"); // by (cl)
+// [Engine Memory]: 930 MB (+4080kb) [00:00:30]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 938 MB. GUI used memory: 67 MB. Current time: 4/9/25, 9:20:58 PM CST

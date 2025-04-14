@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Apr  9 21:20:13 2025
+# Process ID: 45204
+# Current directory: F:/AD/experiment/01_demo_document/ad9280_ethernet
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent46016 F:\AD\experiment\01_demo_document\ad9280_ethernet\adc_ethernet.xpr
+# Log file: F:/AD/experiment/01_demo_document/ad9280_ethernet/vivado.log
+# Journal file: F:/AD/experiment/01_demo_document/ad9280_ethernet\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/AD/experiment/01_demo_document/ad9280_ethernet/adc_ethernet.xpr
+INFO: [Project 1-313] Project file moved from 'F:/AD/Artix7-7103/01_demo_document/ad9280_ethernet' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/xilinx_SDK/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 856.203 ; gain = 222.418
+update_compile_order -fileset sources_1

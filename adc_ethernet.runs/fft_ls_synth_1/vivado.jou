@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Apr 10 10:41:29 2025
+# Process ID: 19876
+# Current directory: F:/AD/experiment/ad9280_ethernet/adc_ethernet.runs/fft_ls_synth_1
+# Command line: vivado.exe -log fft_ls.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fft_ls.tcl
+# Log file: F:/AD/experiment/ad9280_ethernet/adc_ethernet.runs/fft_ls_synth_1/fft_ls.vds
+# Journal file: F:/AD/experiment/ad9280_ethernet/adc_ethernet.runs/fft_ls_synth_1\vivado.jou
+#-----------------------------------------------------------
+source fft_ls.tcl -notrace

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Apr  1 16:30:50 2025
+# Process ID: 19612
+# Current directory: F:/AD/Artix7-7103/01_demo_document/ad9280_ethernet/adc_ethernet.runs/adc_pll_synth_1
+# Command line: vivado.exe -log adc_pll.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source adc_pll.tcl
+# Log file: F:/AD/Artix7-7103/01_demo_document/ad9280_ethernet/adc_ethernet.runs/adc_pll_synth_1/adc_pll.vds
+# Journal file: F:/AD/Artix7-7103/01_demo_document/ad9280_ethernet/adc_ethernet.runs/adc_pll_synth_1\vivado.jou
+#-----------------------------------------------------------
+source adc_pll.tcl -notrace

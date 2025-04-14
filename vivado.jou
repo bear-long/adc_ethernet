@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Apr 10 15:22:39 2025
+# Process ID: 26960
+# Current directory: F:/AD/experiment/ad9280_ethernet
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26232 F:\AD\experiment\ad9280_ethernet\adc_ethernet.xpr
+# Log file: F:/AD/experiment/ad9280_ethernet/vivado.log
+# Journal file: F:/AD/experiment/ad9280_ethernet\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/AD/experiment/ad9280_ethernet/adc_ethernet.xpr
+update_compile_order -fileset sources_1
+create_ip -name cordic -vendor xilinx.com -library ip -version 6.0 -module_name cordic_0 -dir f:/AD/experiment/ad9280_ethernet/adc_ethernet.srcs/sources_1/ip
+set_property -dict [list CONFIG.Pipelining_Mode {Optimal} CONFIG.Compensation_Scaling {LUT_based}] [get_ips cordic_0]
+generate_target {instantiation_template} [get_files f:/AD/experiment/ad9280_ethernet/adc_ethernet.srcs/sources_1/ip/cordic_0/cordic_0.xci]
+generate_target all [get_files  f:/AD/experiment/ad9280_ethernet/adc_ethernet.srcs/sources_1/ip/cordic_0/cordic_0.xci]
+export_ip_user_files -of_objects [get_files f:/AD/experiment/ad9280_ethernet/adc_ethernet.srcs/sources_1/ip/cordic_0/cordic_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] f:/AD/experiment/ad9280_ethernet/adc_ethernet.srcs/sources_1/ip/cordic_0/cordic_0.xci]
+launch_runs -jobs 10 cordic_0_synth_1
+export_simulation -of_objects [get_files f:/AD/experiment/ad9280_ethernet/adc_ethernet.srcs/sources_1/ip/cordic_0/cordic_0.xci] -directory F:/AD/experiment/ad9280_ethernet/ddr3_ov5640_an430_lcd.ip_user_files/sim_scripts -ip_user_files_dir F:/AD/experiment/ad9280_ethernet/ddr3_ov5640_an430_lcd.ip_user_files -ipstatic_source_dir F:/AD/experiment/ad9280_ethernet/ddr3_ov5640_an430_lcd.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/AD/experiment/ad9280_ethernet/adc_ethernet.cache/compile_simlib/modelsim} {questa=F:/AD/experiment/ad9280_ethernet/adc_ethernet.cache/compile_simlib/questa} {riviera=F:/AD/experiment/ad9280_ethernet/adc_ethernet.cache/compile_simlib/riviera} {activehdl=F:/AD/experiment/ad9280_ethernet/adc_ethernet.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+set_property -dict [list CONFIG.Functional_Selection {Translate} CONFIG.Data_Format {SignedFraction} CONFIG.Compensation_Scaling {LUT_based}] [get_ips cordic_0]
+generate_target all [get_files  f:/AD/experiment/ad9280_ethernet/adc_ethernet.srcs/sources_1/ip/cordic_0/cordic_0.xci]
+export_ip_user_files -of_objects [get_files f:/AD/experiment/ad9280_ethernet/adc_ethernet.srcs/sources_1/ip/cordic_0/cordic_0.xci] -no_script -sync -force -quiet
+reset_run cordic_0_synth_1
+launch_runs -jobs 10 cordic_0_synth_1
+export_simulation -of_objects [get_files f:/AD/experiment/ad9280_ethernet/adc_ethernet.srcs/sources_1/ip/cordic_0/cordic_0.xci] -directory F:/AD/experiment/ad9280_ethernet/ddr3_ov5640_an430_lcd.ip_user_files/sim_scripts -ip_user_files_dir F:/AD/experiment/ad9280_ethernet/ddr3_ov5640_an430_lcd.ip_user_files -ipstatic_source_dir F:/AD/experiment/ad9280_ethernet/ddr3_ov5640_an430_lcd.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/AD/experiment/ad9280_ethernet/adc_ethernet.cache/compile_simlib/modelsim} {questa=F:/AD/experiment/ad9280_ethernet/adc_ethernet.cache/compile_simlib/questa} {riviera=F:/AD/experiment/ad9280_ethernet/adc_ethernet.cache/compile_simlib/riviera} {activehdl=F:/AD/experiment/ad9280_ethernet/adc_ethernet.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_property  ALL_PROPS  [get_ips cordic_0]
+set_property -dict [list CONFIG.Functional_Selection {Square_Root} CONFIG.Pipelining_Mode {Optimal} CONFIG.Data_Format {UnsignedInteger} CONFIG.Round_Mode {Nearest_Even} CONFIG.Output_Width {9} CONFIG.Coarse_Rotation {false} CONFIG.Compensation_Scaling {No_Scale_Compensation}] [get_ips cordic_0]
+generate_target all [get_files  f:/AD/experiment/ad9280_ethernet/adc_ethernet.srcs/sources_1/ip/cordic_0/cordic_0.xci]
+export_ip_user_files -of_objects [get_files f:/AD/experiment/ad9280_ethernet/adc_ethernet.srcs/sources_1/ip/cordic_0/cordic_0.xci] -no_script -sync -force -quiet
+reset_run cordic_0_synth_1
+launch_runs -jobs 10 cordic_0_synth_1
+export_simulation -of_objects [get_files f:/AD/experiment/ad9280_ethernet/adc_ethernet.srcs/sources_1/ip/cordic_0/cordic_0.xci] -directory F:/AD/experiment/ad9280_ethernet/ddr3_ov5640_an430_lcd.ip_user_files/sim_scripts -ip_user_files_dir F:/AD/experiment/ad9280_ethernet/ddr3_ov5640_an430_lcd.ip_user_files -ipstatic_source_dir F:/AD/experiment/ad9280_ethernet/ddr3_ov5640_an430_lcd.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/AD/experiment/ad9280_ethernet/adc_ethernet.cache/compile_simlib/modelsim} {questa=F:/AD/experiment/ad9280_ethernet/adc_ethernet.cache/compile_simlib/questa} {riviera=F:/AD/experiment/ad9280_ethernet/adc_ethernet.cache/compile_simlib/riviera} {activehdl=F:/AD/experiment/ad9280_ethernet/adc_ethernet.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_ip -name cordic -vendor xilinx.com -library ip -version 6.0 -module_name my_cordic_1 -dir f:/AD/experiment/ad9280_ethernet/adc_ethernet.srcs/sources_1/ip
+set_property -dict [list CONFIG.Component_Name {my_cordic_1} CONFIG.Functional_Selection {Square_Root} CONFIG.Pipelining_Mode {Optimal} CONFIG.Data_Format {UnsignedInteger} CONFIG.Output_Width {9} CONFIG.Coarse_Rotation {false}] [get_ips my_cordic_1]
+generate_target {instantiation_template} [get_files f:/AD/experiment/ad9280_ethernet/adc_ethernet.srcs/sources_1/ip/my_cordic_1/my_cordic_1.xci]
+generate_target all [get_files  f:/AD/experiment/ad9280_ethernet/adc_ethernet.srcs/sources_1/ip/my_cordic_1/my_cordic_1.xci]
+export_ip_user_files -of_objects [get_files f:/AD/experiment/ad9280_ethernet/adc_ethernet.srcs/sources_1/ip/my_cordic_1/my_cordic_1.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] f:/AD/experiment/ad9280_ethernet/adc_ethernet.srcs/sources_1/ip/my_cordic_1/my_cordic_1.xci]
+launch_runs -jobs 10 my_cordic_1_synth_1
+export_simulation -of_objects [get_files f:/AD/experiment/ad9280_ethernet/adc_ethernet.srcs/sources_1/ip/my_cordic_1/my_cordic_1.xci] -directory F:/AD/experiment/ad9280_ethernet/ddr3_ov5640_an430_lcd.ip_user_files/sim_scripts -ip_user_files_dir F:/AD/experiment/ad9280_ethernet/ddr3_ov5640_an430_lcd.ip_user_files -ipstatic_source_dir F:/AD/experiment/ad9280_ethernet/ddr3_ov5640_an430_lcd.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/AD/experiment/ad9280_ethernet/adc_ethernet.cache/compile_simlib/modelsim} {questa=F:/AD/experiment/ad9280_ethernet/adc_ethernet.cache/compile_simlib/questa} {riviera=F:/AD/experiment/ad9280_ethernet/adc_ethernet.cache/compile_simlib/riviera} {activehdl=F:/AD/experiment/ad9280_ethernet/adc_ethernet.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+synth_design -rtl -name rtl_1
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+synth_design -rtl -name rtl_1
+git log
+pwd
+git init
+git add .
+git add *.v
+git log
+git status
+git commit -m "hxl 初始化提交4.14"
+git remote add origin git@github.com:bear-long/adc_ethernet.git
+git branch
+git push -u origin master
+git remote add origin https://github.com/bear-long/adc_ethernet.git
+git push -u origin master
+git remote set-url origin https://github.com/bear-long/adc_ethernet.git
+git pull origin main
+git push origin main
+git branch
+git pull origin master
+git push origin pull
+git push origin master
